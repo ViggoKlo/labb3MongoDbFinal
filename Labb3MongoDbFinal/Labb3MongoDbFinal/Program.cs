@@ -48,6 +48,8 @@ while (true)
 
             Console.WriteLine(currentCustomer.Username);
 
+            Console.WriteLine(" ");
+
             
 
             currentCart = cartManager.GetById(currentCustomer.Id);
